@@ -1,4 +1,5 @@
 # Screen-zoomer-using-python-with-adjustable
+## update : java is too much faster so I'll add to this repository too
 zoom in with adjustable(x1.5,X2,X3 etc.) always on top of screen andeasy to edit for fitting your need
 It is very easy to read this code and understand it !!!
 
