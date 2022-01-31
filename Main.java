@@ -1,4 +1,3 @@
-package com.company;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -8,22 +7,21 @@ import javax.swing.*;
 
 public class Main {
     public static final long serialVersionUID = 1L;
+    public static final int fps=30;
+    public static final int zoomLevel=4;
+    public static final int width=100; //width & height before zoom (in pixels)
+    public static final int height=100;
     public static void main(String[] args)
     {
         try {
             Thread.sleep(120);
             Robot r = new Robot();
-            int fps=30;
-            fps=1000/fps;
             Dimension a= Toolkit.getDefaultToolkit().getScreenSize();
             int x =(int)(a.getWidth()/2);
             int y =(int)(a.getHeight()/2);
-            int width=100;
-            int height=100;
             x-=width/2;
             y-=height/2;
             Rectangle capture =new Rectangle(x, y, width, height);
-            int zoomLevel=4;
             int newImageWidth = width * zoomLevel;
             int newImageHeight = height * zoomLevel;
             JFrame frame = new JFrame();
@@ -49,7 +47,7 @@ public class Main {
                 frame.add(pane);
                 frame.setVisible(true);
                 timeMillis=System.currentTimeMillis()-timeMillis;
-                Thread.sleep((timeMillis>fps)?7:fps-timeMillis);
+                Thread.sleep((timeMillis>1000/fps)?7:1000/fps-timeMillis);
             }
 
         }
