@@ -1,4 +1,8 @@
 # Screen-zoomer-using-python-with-adjustable
+precise shot taken at a distance of 600 meters using a x2 scope captured from the Heroes & Generals game
+![](https://github.com/fah-OwO/Screen-zoomer-using-python-with-adjustable/assets/65396522/5d461dab-d614-479e-8dac-5f4da9ec94cd)
+![](https://github.com/fah-OwO/Screen-zoomer-using-python-with-adjustable/assets/65396522/3f93acea-5ab1-454a-906d-172ef8687baa)
+![](https://github.com/fah-OwO/Screen-zoomer-using-python-with-adjustable/assets/65396522/cc7fbb98-6972-48ac-9fd0-259aed37cd02)
 ## update : Java is too much faster so I'll add to this repository too
 How to use Java version: run Main.Java 
 ## below this part is information about python version
@@ -28,3 +32,5 @@ Tkinker to make window still on top
 PIL to crop image and resize
 
 (and some time I use it in FPS game)
+
+<!-- ![](https://github.com/fah-OwO/Screen-zoomer-using-python-with-adjustable/assets/65396522/190281e0-8506-49a1-a829-ecf673ffb899) -->
